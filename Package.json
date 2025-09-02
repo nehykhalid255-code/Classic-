@@ -1,0 +1,15 @@
+```json
+{
+  "name": "Classic-bot",
+  "version": "1.0.0",
+  "description": "My WhatsApp Bot using Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.4.1",
+    "pino": "^7.11.0"
+  }
+}
+``
