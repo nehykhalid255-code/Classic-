@@ -40,20 +40,10 @@ async function startBot() {
     if(messageText.toLowerCase() === 'ping') {
       await sock.sendMessage(sender, { text: 'Pong!' });
     } else {
-      await sock.sendMessage(sender, { text: `You said: ${messageText}` });
+      `js
+await sock.sendMessage(sender,  text: `You said:{messageText}` });
     }
   });
 }
 
-startBot();
-```
-
----
-
-3. *.gitignore*  
-Ignore the auth folder to protect your credentials.
-
-```
-auth_info
-node_modules
-```
+startBot()
